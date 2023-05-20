@@ -30,17 +30,35 @@ namespace TypeConversion
                     Console.WriteLine("I don't know what is the season!");
                     break;*/
 
-            while (true)
+           /* while (true)
             {
                 Console.Write("Type your name: ");
                 var input = Console.ReadLine();
 
-                if(String.IsNullOrWhiteSpace(input))
+                *//*if(String.IsNullOrWhiteSpace(input))
                 {
                     break;
                 }
+                Console.WriteLine("@Echo: " + input);*//*
+
+                if (!String.IsNullOrWhiteSpace(input))
+                {
                 Console.WriteLine("@Echo: " + input);
+                    continue; 
+                }
+                break;
+            }*/
+
+            var random = new Random();
+            const int passwordLength = 10;
+            var buffer = new char[passwordLength];
+            for (int i = 0; i < passwordLength; i++) 
+            {
+                buffer[i]=(char)('a' +random.Next(0, 26));
+
             }
+            var password = new string(buffer);
+        Console.WriteLine(password);
 
                    
             }
