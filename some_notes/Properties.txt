@@ -1,0 +1,79 @@
+Properties:
+
+-Property is a member of class using which we can expose values associated with
+a class to the outside environment.
+
+
+
+public double GetRadius() // Provides only get access tothe value
+{
+return Radius;
+}
+
+public void SetRadius(double value) // Provides only set access to the value
+{
+Radius = value;
+}
+public double RadiusProperty
+{
+get{return Radius;}
+set {Radius= value;}
+}
+
+format:
+[<modifiers>]<type><Name>
+{
+[get{<stmt's>] //Get Accessor
+[set{<stmt's}] //set Accessor
+}
+
+
+Note:
+public class Circle
+{
+public double _Radius = 12.34; // we write the field with underscore like _Radius
+
+public double Radius // defining property
+{
+get{return _Radius;} //represents a value returning
+//method without parameter
+set{return _Radius;} //Represents a non-value reutrning
+//method with parameters
+set
+{
+if(value>_Radius)
+_Radius=value;
+}
+}
+}
+public clas TestCircle
+{
+static void Main()
+{
+Circle c = new Circle();
+double radius = c.Radius; // calling the get accessor of property
+c.Radius= 12.33;// calling  the set accessor of the property
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

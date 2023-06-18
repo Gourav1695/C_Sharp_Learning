@@ -1,0 +1,24 @@
+notes:
+ 
+1. Run the logic before l1
+2.l1 runs in individual providers.
+3. then after l2 and l3 runs.
+4. ProviderManager.cs ->RequestContext -> here we have to write QueryContext.cs
+
+5. QueryContext.cs inside RequestContext.cs
+6. Read about queryanylysiscontext part
+7. EntityTypeRequired -
+8. AutoCompletProvider -> Enhance auto complte provider is to giv auto complete text suggestions
+ for keywords like from/ to/ About / With?In etc based on the query already typed.These can be suggested based on
+prefix match along with the below condition.
+ --> "From" can be suggest as ZQ auto complete. --> what is ZQ??
+--> "About" can be suggested if a person is already selected and the query has " From" or "To" keywords.
+-->"In" keyword can be suggested with chats/ teams/channels to search within a particular channel
+--> "On" keyword should give the data ranges as suggestions. ie Today/Last 7days etc.
+
+9.QueryUndertandingConext
+This should be similar to QAS .  but very light weight, to just understand basic keywords/Queries.This should be the below 
+properties.  --->> what is QAS?
+10. a) EntityTypesRequested , b) PersonEntitiesSelected.
+
+

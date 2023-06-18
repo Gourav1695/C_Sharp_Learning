@@ -1,0 +1,55 @@
+method Overriding:
+-It's an approach of re-implementing a parent classes method under
+the child class with the same signature.
+
+class1
+show()
+show(int i)
+Test()
+
+class2 : class1
+show(string i)
+Test()
+
+Overloading:
+1. In this case we difine multiple methods with the same name by 
+changing their parameters.
+2. This can be performed either within a class as well as between 
+parent child classes also.
+3. While overloading a parenet classes method under the child class,
+, child class doesn't require to take any permission from 
+the parent class.
+4. overloading is all about defining multiple behaviours
+to a method.
+
+Overriding:
+1. In this case we define multiple methods with teh same name and same 
+parameters.
+2.This can be performed only between parenet child classes and never
+be performed with in the same class.
+3. while overriding a parent's  method under child class, child class
+requires a permission from it's parent.
+4.overriding is all about changing the behaviour of parent's method 
+under child class.
+
+Note: if we want to override a parent's method under the child class first 
+the mehtod should be declared by using the virtual odifier 
+in parent class.
+
+class1 
+public virtural void Test()// Override
+
+-any virtual mehtod of the parent class can be overriden by the childif required by 
+usign the override modifier.
+
+
+class2 : class1
+public override void Test()  // overriding
+
+
+
+
+
+
+
+

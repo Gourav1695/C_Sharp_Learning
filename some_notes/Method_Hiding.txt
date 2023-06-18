@@ -1,0 +1,32 @@
+Method Hiding/Shadowing:
+
+-Method overriding is an approach of re-implemeting a 
+parent classes method under the child class exactly with the same
+name and signature.
+
+- Method Hiding/shadowing is also an approach of re-implementing 
+a parent classes method under the child class exactly with
+the same name and signature.
+
+-In the first case child class re-implements it's parent's methods which are declared as vi
+as virtual , Where as in the second case 
+child class can re-implent any parent's method even if the method is not declared as virtual.
+
+- After re-implementing parent classes methods under child classes
+the child class instance will start calling the local methods only that is 
+the re-implemented methods, but if required in any case we can also call 
+the parent classes methods from child classes by 
+using 2 approaches.
+
+1. By creating the intance of parent class under child class we can call parent's methods
+from child class.
+
+2. By using the base keyword also we can call parent's method from child class.
+ but keywords like this and base can't be used from static blocks.
+
+
+-- A parent clas refernce eve if created by using the child class
+instance can't access any members that are purely defined under the child clas but can call overriden
+ members of child class, because overriden members are not considered as pure
+ child class members , but members which are re-implemented by sung the approach of hiding are considered
+as pure child class members and not accessible to parent's references.

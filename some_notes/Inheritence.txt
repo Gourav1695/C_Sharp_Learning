@@ -1,0 +1,51 @@
+step 1: identify the entities that are associated with the application we are developing.
+
+eg. school Application: Student, TeachingStaff, NonTeachingStaff.
+Step 2 :identify the attributes of each and every entity.
+
+Student			TStaff		NTStaff
+-id			-id		-id
+-name			-name		-name
+-address		-address	-address
+-phone			-phone		-phone
+-class			-designation	-designation
+-marks			-salary		-salary
+-grade			-qualification	-dname
+
+step 3: identify the common attributes of each entity and put
+them in a hierarchial order.
+
+step 4: define the class representing the entities that are
+put in hierarchial order.
+
+public class Person
+{
+public int Id;
+public string Name, Address, Phone;
+}
+public class Student :Person
+{
+char Grade;
+float Marks, Fees;
+}
+
+public class Staff : Person
+{
+public double Salary;
+public string Designation;
+}
+
+public class Teachig: Staff
+{
+string Qualification, Subject;
+}
+public class NonTeaching : Staff
+{
+int MgrId;
+string Dname;
+}
+
+
+
+
+

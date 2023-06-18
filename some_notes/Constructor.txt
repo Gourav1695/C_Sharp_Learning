@@ -1,0 +1,36 @@
+int x;
+static ConstrucorsDemo()
+{
+Console.WriteLine("Static constructor is called.");
+}
+public ConstructorDemo(int x)
+{
+this.x=x;
+Console.WriteLine("Non-static constructor is called.");
+}
+static void Main()
+{
+Console.WriteLine("Main method is called.");
+ConstructorsDemo d1 = new ConstructorsDemo(10);
+ConstructorsDemo d2 = new ConstrcutorsDemo(20);
+ConstructorsDemo d3 = new ConstructorsDemo(30);
+
+}
+
+// some points to be noted:
+-Non-static constructors can be overloaded where as static
+constructors can't be overloaded.
+
+-Non-static constructors can be parameterized but 
+static constrctors can't have any parameters because static constructors
+are implicitly called and more over it's te first block of code 
+to run under the class.
+
+-every class contains an implicit constructor if not defined explicitly and those
+implicit constructors are defined based on the following criteria:
+
+-Every class except a static class contains an implicit non-static
+constructor if not defined with an explicit constructor.
+- Static constructors are implicitly defined only if that classs
+ constains any static fields or else that constructor
+ will not be present at all.

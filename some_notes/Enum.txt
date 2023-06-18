@@ -1,0 +1,20 @@
+Enumeration or Enum Types:
+
+A enum is a user- defined type,so is always better to 
+define an Enum directly under the namespace, but it is 
+also possible to define a Enum under a clas or structure
+also.
+
+[<modifiers>] enum <name>[:<types>]
+{
+-List of named constant values
+}
+
+public enum Days
+{
+Monday,
+Tuesday,
+Wednesday,
+Thursday,
+Friday
+}
