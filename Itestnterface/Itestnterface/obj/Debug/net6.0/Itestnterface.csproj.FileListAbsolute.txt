@@ -1,0 +1,15 @@
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\bin\Debug\net6.0\Itestnterface.exe
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\bin\Debug\net6.0\Itestnterface.deps.json
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\bin\Debug\net6.0\Itestnterface.runtimeconfig.json
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\bin\Debug\net6.0\Itestnterface.dll
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\bin\Debug\net6.0\Itestnterface.pdb
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.csproj.AssemblyReference.cache
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.AssemblyInfoInputs.cache
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.AssemblyInfo.cs
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.csproj.CoreCompileInputs.cache
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.dll
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\refint\Itestnterface.dll
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.pdb
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\Itestnterface.genruntimeconfig.cache
+C:\Users\t-gouravshaw\source\repos\Itestnterface\Itestnterface\obj\Debug\net6.0\ref\Itestnterface.dll
