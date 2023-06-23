@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 namespace TypeConversion
 
 {
-
-
     internal class Program
     {
         static void Main(string[] args)
